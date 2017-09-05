@@ -1,6 +1,6 @@
 {
   "name": "node-tepez",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Node.js wrapper for the Tepez HTTP API",
   "main": "lib/api.js",
   "scripts": {
