@@ -29,12 +29,16 @@ Set the `DEBUG` environment variable to `tepez:api` to get each request and resp
 
 ## Supported methods
 
+### Form
+* getForm
+* listForms
+
 ### Entry
-* submitEntry
 * getEntry
-* editEntry
 * listEntries
 * saveNewEntry
+* submitEntry
+* editEntry
 
 ### Options set
 * optionsSetDeleteOptions
