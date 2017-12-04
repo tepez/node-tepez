@@ -4,7 +4,8 @@
   "description": "Node.js wrapper for the Tepez HTTP API",
   "main": "lib/api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/jasmine/bin/jasmine.js",
+    "update": "np --no-publish --no-yarn"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "url": "https://github.com/tepez/node-tepez/issues"
   },
   "homepage": "https://github.com/tepez/node-tepez",
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  },
   "dependencies": {
     "bluebird": "^3.4.6",
     "chalk": "^1.1.3",
